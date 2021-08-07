@@ -8,7 +8,9 @@ The dataset is simulated using gamma correction on 150 CityScape validation imag
 # Get Started
 Firstly, download the DarkCityScape dataset from [Baiduyun](https://pan.baidu.com/s/1--xG3uNuH_9rKzcHpQKqgQ) with passord `wvhy`
 
+
 Secondly, download the DarkCityScape labels from [Baiduyun](https://pan.baidu.com/s/1SlNCx7SknnQ_NUD57e0Q4w) with password `a2z5`
+
 
 Thirdly, put the segmentation outcome of the enhanced images in
 
@@ -18,13 +20,16 @@ And the Groudtruth segmentation labels in
 
 `path_to_your_gt`
 
+
 Note: 
 1. You could refers to `Dark.txt` if you are not sure how to put the images.
 2. The size of 'pred' and 'gt' should be same. 
 
+
 Finally, run the following script 
 
 `python main.py --pred path_to_your_pred --gt path_to_your_gt`
+
 
 The result of mIOU and mPA will be in `output_iou.txt` and `output_pa.txt`, respectively.
 
