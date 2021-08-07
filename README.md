@@ -3,28 +3,21 @@ This is a repository for calculating the mIOU (mean intersection over union) and
 The dataset is simulated using gamma correction on 150 CityScape validation images. 
 
 # Sample Images from DarkCityScapes
-![alt text](image.jpg)
+![Sample DarkCityScape Image](frankfurt_000000_012868_leftImg8bit.png)
 
 # Get Started
 1. Download the DarkCityScape dataset from [Baiduyun](https://pan.baidu.com/s/1--xG3uNuH_9rKzcHpQKqgQ) with passord `wvhy`
 
 2. Download the DarkCityScape labels from [Baiduyun](https://pan.baidu.com/s/1SlNCx7SknnQ_NUD57e0Q4w) with password `a2z5`
 
-3. Put the segmentation outcome of the enhanced images in
-
-`path_to_your_pred`
-
-And the Groudtruth segmentation labels in 
-
-`path_to_your_gt`
+3. Put the segmentation outcome of the enhanced images in `path_to_your_pred`
+   And the Groudtruth segmentation labels in `path_to_your_gt`
 
 Note: 
 - You could refers to `Dark.txt` if you are not sure how to put the images.
 - The size of 'pred' and 'gt' should be same. 
 
-4. Run the following script
-
-`python main.py --pred path_to_your_pred --gt path_to_your_gt`
+4. Run the following script `python main.py --pred path_to_your_pred --gt path_to_your_gt`
 
 
 The result of mIOU and mPA will be in `output_iou.txt` and `output_pa.txt`, respectively.
