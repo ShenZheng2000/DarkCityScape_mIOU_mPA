@@ -1,5 +1,5 @@
 # DarkCityScape_mIOU_mPA
-This is a repository for calculating the mIOU (mean intersection over union) and mPA (mean average precision) for DarkCityScapes. DarkCityScapes is the "Dark version" of the CityScape dataset [1] and is specifically designed for extreme low-light image enhancement tasks. 
+This is a repository for calculating the mIOU (mean intersection over union) and mPA (mean pixel accuracy) for DarkCityScapes. DarkCityScapes is the "Dark version" of the CityScape dataset [1] and is specifically designed for extreme low-light image enhancement tasks. 
 The dataset is simulated using gamma correction on 150 CityScape validation images. 
 
 # Sample Images from DarkCityScapes
