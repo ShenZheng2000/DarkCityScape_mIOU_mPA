@@ -13,14 +13,12 @@ The dataset is simulated using gamma correction on 150 CityScape validation imag
 3. Put the segmentation outcome of the enhanced images in `path_to_your_pred`
    And the Groudtruth segmentation labels in `path_to_your_gt`
 
+4. Run the following script `python main.py --pred path_to_your_pred --gt path_to_your_gt`
+
 Note: 
 - You could refers to `Dark.txt` if you are not sure how to put the images.
 - The size of 'pred' and 'gt' should be same. 
-
-4. Run the following script `python main.py --pred path_to_your_pred --gt path_to_your_gt`
-
-
-The result of mIOU and mPA will be in `output_iou.txt` and `output_pa.txt`, respectively.
+- The result of mIOU and mPA will be in `output_iou.txt` and `output_pa.txt`, respectively.
 
 
 # Sample Result
