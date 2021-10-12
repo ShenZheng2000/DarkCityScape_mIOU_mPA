@@ -14,7 +14,8 @@ The dataset is simulated using gamma correction on 150 CityScape validation imag
    And the Groudtruth segmentation labels in `path_to_your_gt`
 
 4. Run the following script 
-```python main.py --pred path_to_your_pred --gt path_to_your_gt
+```
+python main.py --pred path_to_your_pred --gt path_to_your_gt
 ```
 
 Note: 
